@@ -1,0 +1,24 @@
+{
+  "feedinfo": {
+    "category": "hello world category", 
+    "provider_url": "http://url.com", 
+    "display_name": "hello world feed", 
+    "name": "helloworld2", 
+    "tech_data": "this is the techdata", 
+    "summary": "this is the feed summary"
+  }, 
+  "reports": [
+    {
+      "title": "hello world feed report2", 
+      "iocs": {
+        "ipv4": [
+          "1.2.3.4",
+          "5.6.7.8",
+          "9.10.11.12"
+        ] 
+      }, 
+      "score": 100, 
+      "link": "http://url.com" 
+    }
+  ]
+}
