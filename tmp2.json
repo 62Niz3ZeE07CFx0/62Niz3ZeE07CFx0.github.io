@@ -33,7 +33,36 @@
       "score": 100, 
       "link": "http://url.com", 
       "id": "2ec99ca7e0385f278679e0e3cd264165"
+    },
+    {
+      "title": "hello world feed report4", 
+      "timestamp": 1515589052,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "modules",
+            "search_query": "cb.urlver=1&q=md5%3A004048ee3ae7b636911374b7841ac4a4"
+          }
+        ]
+      },
+      "score": 50,
+      "link": "http://url.com", 
+      "id": "2ec99ca7e0385f278679e0e3cd264166"
+    },
+    {
+      "title": "hello world feed report5", 
+      "timestamp": 1515589052,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Ahello7"
+          }
+        ]
+      },
+      "score": 50,
+      "link": "http://url.com", 
+      "id": "2ec99ca7e0385f278679e0e3cd264167"
     }
-
-  ]
+   ]
 }
